@@ -1,0 +1,40 @@
+/* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the content vertically */
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    /* Additional styling for the image */
+    max-width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  
+    /* Add other styles as needed */
+  }
+
+
+p {
+    /* Styling for the text */
+    margin-top: 0px; /* Adjust the top margin as needed */
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #000000; /* Change the text color if desired */
+    text-align: center; /* Align the text to the center */
+    font-weight: bold;
+}
+  
