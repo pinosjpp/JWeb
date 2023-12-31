@@ -28,7 +28,7 @@ body, html {
   }
 
 
-p {
+p.logo {
     /* Styling for the text */
     margin-top: 0px; /* Adjust the top margin as needed */
     font-family: "Helvetica Neue", sans-serif;
@@ -36,5 +36,15 @@ p {
     color: #000000; /* Change the text color if desired */
     text-align: center; /* Align the text to the center */
     font-weight: bold;
+}
+
+p.ex1 {
+  /* Styling for the text */
+  margin-top: 0px; /* Adjust the top margin as needed */
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #000000; /* Change the text color if desired */
+  text-align: left; /* Align the text to the center */
+  font-weight: bold;
 }
   
